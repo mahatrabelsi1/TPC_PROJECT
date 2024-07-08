@@ -1,0 +1,53 @@
+
+.bg {
+    background-color: #212421;
+
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 32px ;
+    padding-bottom: 32px;
+}
+
+.border-line{
+    border-top: 1px solid #FFFFFF;
+}
+
+.icons-section{
+    padding: 24px 64px;
+}
+
+.logo{
+    height: 211px;
+    width: 289px;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    width: 56px;
+    height: 56px;
+}
+
+@media (max-width: 425px) {
+    .icons-section {
+      padding: 25px 24px; 
+    }
+  
+    .icon {
+      width: 35px; 
+      height: 35px; 
+    }
+  
+    .logo {
+      width: 220px; 
+      height: 74px; 
+    }
+  }
