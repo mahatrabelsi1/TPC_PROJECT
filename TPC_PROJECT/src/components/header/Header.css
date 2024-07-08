@@ -16,6 +16,16 @@
     align-items: center;
   }
   
+  .bnt a {
+    text-decoration: none;  /* No underline */
+    color: white;         /* Red text */
+}
+
+.bnt a:hover {
+  text-decoration: underline;  /* Underline on hover */
+  color: rgba(255, 51, 204, 1);              /* Green text on hover */
+}
+
   .nav-links {
     list-style: none;
     display: flex;

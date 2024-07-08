@@ -1,6 +1,6 @@
 import './Hero.css'; 
-import hero1 from '../../assets/images/hero1.jpg';
-import hero2 from '../../assets/images/hero2.jpg';
+import hero1 from '../../assets/images/hero1.png';
+import hero2 from '../../assets/images/hero2.png';
 
 const Hero = () => {
   return (
