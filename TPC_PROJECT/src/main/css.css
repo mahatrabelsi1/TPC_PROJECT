@@ -1,0 +1,19 @@
+.button {  margin-top: 20px; /* Adjust the top margin as needed */
+    font-size: 22px;
+    background-color: rgba(255, 51, 204, 1);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease; /* Smooth transition for hover effects */
+  }
+  
+  .button:hover {
+    background-color: transparent; /* Transparent background on hover */
+    color: white; /* Text color remains white */
+    border: 1px solid white; /* White border */
+  }
+  h1 {
+    margin-bottom: 0; /* Remove bottom margin from the h1 element */
+  }

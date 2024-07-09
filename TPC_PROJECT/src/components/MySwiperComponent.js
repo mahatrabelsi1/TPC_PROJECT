@@ -11,7 +11,7 @@ import 'swiper/css/autoplay';
 
 export default function App() {
   return (
-    <Swiper style={{marginTop:"-200px"}}
+    <Swiper style={{marginTop:"-50px"}}
   modules={[Pagination, Scrollbar, A11y, Autoplay]} // Remove Navigation from the list
   spaceBetween={50}
   slidesPerView={3}
